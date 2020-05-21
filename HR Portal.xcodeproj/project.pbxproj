@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E93C82C2476FBC800F838D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93C82B2476FBC800F838D4 /* AppDelegate.swift */; };
+		3E93C82E2476FBC800F838D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93C82D2476FBC800F838D4 /* SceneDelegate.swift */; };
+		3E93C8302476FBC800F838D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93C82F2476FBC800F838D4 /* ViewController.swift */; };
+		3E93C8332476FBC800F838D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E93C8312476FBC800F838D4 /* Main.storyboard */; };
+		3E93C8362476FBC800F838D4 /* HR_Portal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E93C8342476FBC800F838D4 /* HR_Portal.xcdatamodeld */; };
+		3E93C8382476FBCC00F838D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E93C8372476FBCC00F838D4 /* Assets.xcassets */; };
+		3E93C83B2476FBCC00F838D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E93C8392476FBCC00F838D4 /* LaunchScreen.storyboard */; };
+		3E93C8462476FBCC00F838D4 /* HR_PortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93C8452476FBCC00F838D4 /* HR_PortalTests.swift */; };
+		3E93C8512476FBCC00F838D4 /* HR_PortalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93C8502476FBCC00F838D4 /* HR_PortalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E93C8422476FBCC00F838D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E93C8202476FBC800F838D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E93C8272476FBC800F838D4;
+			remoteInfo = "HR Portal";
+		};
+		3E93C84D2476FBCC00F838D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E93C8202476FBC800F838D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E93C8272476FBC800F838D4;
+			remoteInfo = "HR Portal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E93C8282476FBC800F838D4 /* HR Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HR Portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E93C82B2476FBC800F838D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E93C82D2476FBC800F838D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3E93C82F2476FBC800F838D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E93C8322476FBC800F838D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E93C8352476FBC800F838D4 /* HR_Portal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HR_Portal.xcdatamodel; sourceTree = "<group>"; };
+		3E93C8372476FBCC00F838D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E93C83A2476FBCC00F838D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E93C83C2476FBCC00F838D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E93C8412476FBCC00F838D4 /* HR PortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HR PortalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E93C8452476FBCC00F838D4 /* HR_PortalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HR_PortalTests.swift; sourceTree = "<group>"; };
+		3E93C8472476FBCC00F838D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E93C84C2476FBCC00F838D4 /* HR PortalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HR PortalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E93C8502476FBCC00F838D4 /* HR_PortalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HR_PortalUITests.swift; sourceTree = "<group>"; };
+		3E93C8522476FBCC00F838D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E93C8252476FBC800F838D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E93C83E2476FBCC00F838D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E93C8492476FBCC00F838D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E93C81F2476FBC800F838D4 = {
+			isa = PBXGroup;
+			children = (
+				3E93C82A2476FBC800F838D4 /* HR Portal */,
+				3E93C8442476FBCC00F838D4 /* HR PortalTests */,
+				3E93C84F2476FBCC00F838D4 /* HR PortalUITests */,
+				3E93C8292476FBC800F838D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E93C8292476FBC800F838D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E93C8282476FBC800F838D4 /* HR Portal.app */,
+				3E93C8412476FBCC00F838D4 /* HR PortalTests.xctest */,
+				3E93C84C2476FBCC00F838D4 /* HR PortalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E93C82A2476FBC800F838D4 /* HR Portal */ = {
+			isa = PBXGroup;
+			children = (
+				3E93C82B2476FBC800F838D4 /* AppDelegate.swift */,
+				3E93C82D2476FBC800F838D4 /* SceneDelegate.swift */,
+				3E93C82F2476FBC800F838D4 /* ViewController.swift */,
+				3E93C8312476FBC800F838D4 /* Main.storyboard */,
+				3E93C8372476FBCC00F838D4 /* Assets.xcassets */,
+				3E93C8392476FBCC00F838D4 /* LaunchScreen.storyboard */,
+				3E93C83C2476FBCC00F838D4 /* Info.plist */,
+				3E93C8342476FBC800F838D4 /* HR_Portal.xcdatamodeld */,
+			);
+			path = "HR Portal";
+			sourceTree = "<group>";
+		};
+		3E93C8442476FBCC00F838D4 /* HR PortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E93C8452476FBCC00F838D4 /* HR_PortalTests.swift */,
+				3E93C8472476FBCC00F838D4 /* Info.plist */,
+			);
+			path = "HR PortalTests";
+			sourceTree = "<group>";
+		};
+		3E93C84F2476FBCC00F838D4 /* HR PortalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E93C8502476FBCC00F838D4 /* HR_PortalUITests.swift */,
+				3E93C8522476FBCC00F838D4 /* Info.plist */,
+			);
+			path = "HR PortalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E93C8272476FBC800F838D4 /* HR Portal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E93C8552476FBCC00F838D4 /* Build configuration list for PBXNativeTarget "HR Portal" */;
+			buildPhases = (
+				3E93C8242476FBC800F838D4 /* Sources */,
+				3E93C8252476FBC800F838D4 /* Frameworks */,
+				3E93C8262476FBC800F838D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HR Portal";
+			productName = "HR Portal";
+			productReference = 3E93C8282476FBC800F838D4 /* HR Portal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E93C8402476FBCC00F838D4 /* HR PortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E93C8582476FBCC00F838D4 /* Build configuration list for PBXNativeTarget "HR PortalTests" */;
+			buildPhases = (
+				3E93C83D2476FBCC00F838D4 /* Sources */,
+				3E93C83E2476FBCC00F838D4 /* Frameworks */,
+				3E93C83F2476FBCC00F838D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E93C8432476FBCC00F838D4 /* PBXTargetDependency */,
+			);
+			name = "HR PortalTests";
+			productName = "HR PortalTests";
+			productReference = 3E93C8412476FBCC00F838D4 /* HR PortalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E93C84B2476FBCC00F838D4 /* HR PortalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E93C85B2476FBCC00F838D4 /* Build configuration list for PBXNativeTarget "HR PortalUITests" */;
+			buildPhases = (
+				3E93C8482476FBCC00F838D4 /* Sources */,
+				3E93C8492476FBCC00F838D4 /* Frameworks */,
+				3E93C84A2476FBCC00F838D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E93C84E2476FBCC00F838D4 /* PBXTargetDependency */,
+			);
+			name = "HR PortalUITests";
+			productName = "HR PortalUITests";
+			productReference = 3E93C84C2476FBCC00F838D4 /* HR PortalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E93C8202476FBC800F838D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "ZFEHR development";
+				TargetAttributes = {
+					3E93C8272476FBC800F838D4 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					3E93C8402476FBCC00F838D4 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 3E93C8272476FBC800F838D4;
+					};
+					3E93C84B2476FBCC00F838D4 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 3E93C8272476FBC800F838D4;
+					};
+				};
+			};
+			buildConfigurationList = 3E93C8232476FBC800F838D4 /* Build configuration list for PBXProject "HR Portal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E93C81F2476FBC800F838D4;
+			productRefGroup = 3E93C8292476FBC800F838D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E93C8272476FBC800F838D4 /* HR Portal */,
+				3E93C8402476FBCC00F838D4 /* HR PortalTests */,
+				3E93C84B2476FBCC00F838D4 /* HR PortalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E93C8262476FBC800F838D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E93C83B2476FBCC00F838D4 /* LaunchScreen.storyboard in Resources */,
+				3E93C8382476FBCC00F838D4 /* Assets.xcassets in Resources */,
+				3E93C8332476FBC800F838D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E93C83F2476FBCC00F838D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E93C84A2476FBCC00F838D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E93C8242476FBC800F838D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E93C8302476FBC800F838D4 /* ViewController.swift in Sources */,
+				3E93C8362476FBC800F838D4 /* HR_Portal.xcdatamodeld in Sources */,
+				3E93C82C2476FBC800F838D4 /* AppDelegate.swift in Sources */,
+				3E93C82E2476FBC800F838D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E93C83D2476FBCC00F838D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E93C8462476FBCC00F838D4 /* HR_PortalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E93C8482476FBCC00F838D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E93C8512476FBCC00F838D4 /* HR_PortalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E93C8432476FBCC00F838D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E93C8272476FBC800F838D4 /* HR Portal */;
+			targetProxy = 3E93C8422476FBCC00F838D4 /* PBXContainerItemProxy */;
+		};
+		3E93C84E2476FBCC00F838D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E93C8272476FBC800F838D4 /* HR Portal */;
+			targetProxy = 3E93C84D2476FBCC00F838D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E93C8312476FBC800F838D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E93C8322476FBC800F838D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E93C8392476FBCC00F838D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E93C83A2476FBCC00F838D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E93C8532476FBCC00F838D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E93C8542476FBCC00F838D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E93C8562476FBCC00F838D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYHZ8VQ444;
+				INFOPLIST_FILE = "HR Portal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZFEHR.HR-Portal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E93C8572476FBCC00F838D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYHZ8VQ444;
+				INFOPLIST_FILE = "HR Portal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZFEHR.HR-Portal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E93C8592476FBCC00F838D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYHZ8VQ444;
+				INFOPLIST_FILE = "HR PortalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZFEHR.HR-PortalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HR Portal.app/HR Portal";
+			};
+			name = Debug;
+		};
+		3E93C85A2476FBCC00F838D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYHZ8VQ444;
+				INFOPLIST_FILE = "HR PortalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZFEHR.HR-PortalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HR Portal.app/HR Portal";
+			};
+			name = Release;
+		};
+		3E93C85C2476FBCC00F838D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYHZ8VQ444;
+				INFOPLIST_FILE = "HR PortalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZFEHR.HR-PortalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HR Portal";
+			};
+			name = Debug;
+		};
+		3E93C85D2476FBCC00F838D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYHZ8VQ444;
+				INFOPLIST_FILE = "HR PortalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZFEHR.HR-PortalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HR Portal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E93C8232476FBC800F838D4 /* Build configuration list for PBXProject "HR Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E93C8532476FBCC00F838D4 /* Debug */,
+				3E93C8542476FBCC00F838D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E93C8552476FBCC00F838D4 /* Build configuration list for PBXNativeTarget "HR Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E93C8562476FBCC00F838D4 /* Debug */,
+				3E93C8572476FBCC00F838D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E93C8582476FBCC00F838D4 /* Build configuration list for PBXNativeTarget "HR PortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E93C8592476FBCC00F838D4 /* Debug */,
+				3E93C85A2476FBCC00F838D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E93C85B2476FBCC00F838D4 /* Build configuration list for PBXNativeTarget "HR PortalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E93C85C2476FBCC00F838D4 /* Debug */,
+				3E93C85D2476FBCC00F838D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E93C8342476FBC800F838D4 /* HR_Portal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E93C8352476FBC800F838D4 /* HR_Portal.xcdatamodel */,
+			);
+			currentVersion = 3E93C8352476FBC800F838D4 /* HR_Portal.xcdatamodel */;
+			path = HR_Portal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E93C8202476FBC800F838D4 /* Project object */;
+}
